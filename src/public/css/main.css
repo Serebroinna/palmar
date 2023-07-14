@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f3fbf7;
+    font-family: neucha;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar{
+    background-color:#f3fbf7;
+}
+
+.nav-link{
+    color: #92e7c4;
+    width: 50px;
+}
+
+.navbar-brand{
+    color: #92e7c4;   
+}
+
+#footer{
+    width: 100%;
+    text-align: center;
+    background-color: #f3fbf7;
+}
+
+#section-cards{
+    background-color: #92e7c4;
+}
+
+#container-body-cards{
+    display: flex;
+}
+
+table{
+    border-radius: 10%;
+}
+
+#head-table{
+    background-color: #92e7c4;
+}
+
+#body-table{
+    background-color: #f3fbf7;
+}
+
+#btn-agregar{
+    background-color: #9ff0c3;
+    margin-bottom: 10%;
+}
+
+.card {
+    width: 30%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #f3fbf7;
+    box-shadow: 0px 1px 10px rgba(0,0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;   
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.card img{
+    width: 100%;
+    height: 210px;
+}
+
+#card-body{
+    padding: 5%;
+}
+
+#btn-add-carrito{
+    background-color: #9ff0c3;
+    color: #FFFF;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+#btn-add-carrito:hover{
+    border: 1px solid #9ff0c3;
+    background-color: #FFFF;
+    color: black;
+}
+
+#container-btn-add-carrito{
+    text-align: center;
+}
+
+#card-contact{
+    display: flex;
+    width: 500px;
+}
+
+#section-contact{
+    background-color: #9ff0c4;
+}
+
+#img-banner{
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'neucha';
+    src: url('../fonts/Neucha-Regular.ttf') format('woff2');
+    font-style: normal;
+    font-weight: normal;
+}
